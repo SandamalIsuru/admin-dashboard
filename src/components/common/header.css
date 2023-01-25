@@ -1,0 +1,8 @@
+.dark-mode {
+    transform: scale(0);
+}
+
+.dark-mode.active {
+    transform: scale(1);
+    transition: 1000ms ease-in-out;
+}
